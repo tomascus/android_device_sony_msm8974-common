@@ -113,6 +113,11 @@ endif
 PRODUCT_PACKAGES += \
     power.msm8974
 
+# QC Perf
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.qualcomm.perf.cores_online=2 \
+    ro.vendor.extension_library=libqti-perfd-client.so
+
 # Recovery
 PRODUCT_PACKAGES += \
     keycheck
