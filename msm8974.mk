@@ -94,7 +94,8 @@ PRODUCT_PACKAGES += \
 
 # For android_filesystem_config.h
 PRODUCT_PACKAGES += \
-   fs_config_files
+    fs_config_files \
+    liboemaids
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(COMMON_PATH)/overlay
